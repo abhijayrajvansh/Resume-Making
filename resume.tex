@@ -1,0 +1,248 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%-----------https://www.overleaf.com/project/61fa3664d72ded4727dc2164-------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+
+\begin{center}
+    \textbf{\Huge \scshape Abhijay Rajvansh} \\ \vspace{1pt}
+    \small (+91)870-924-7743 $|$ \href{mailto:ar6660@srmist.edu.in}{\underline{ar6660@srmist.edu.in}} $|$
+    \href{https://linkedin.com/in/abhijayrajvansh}{\underline{linkedIn}} $|$
+    \href{https://hackerrank.com/abhijay2711}{\underline{Hackerrank}} $|$
+    \href{https://github.com/abhijayrajvansh}{\underline{Github}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {SRM Institute of Science and Technology}{Chennai, TN}
+      {Bachelor of Technology (B.Tech) in Computer Science and Engineering}{Sep. 2020 -- Present}
+      
+      \emph{CGPA - 9.1}{(Till 4th Sem.)}
+    % \resumeSubheading
+    %   {Leed's Asian School}{Patna, BR}
+    %   {Class 12th - (CBSE) }{Apr. 2018 -- Mar. 2020}
+    %  \resumeSubheading
+    %   {Notre Dame Academy}{NTPC Barh, BR}
+    %   {Class 10th – (CBSE)}{Apr. 2009 -- May 2018}
+  \resumeSubHeadingListEnd
+  
+
+%-----------EXPERIENCE-----------
+\section{Professional Experience}
+  \resumeSubHeadingListStart
+  \resumeSubheading
+      {iOS App Developer Intern @Bling.Cloud}{Feb. 2023 -- Present}
+      {Guide – Mr. Kishlaya Sharma and Mr. Anand Acharya, San Francisco Bay Area, CA (Silicon Valley).}{}
+      
+      \resumeItemListStart
+        \resumeItem
+        {Designing and building applications for mobile devices running Apple's iOS operating software & coding the base application with REST APIs ensuring the quality of the application, fixing application bugs, maintaining the code, and implementing application updates}
+       \resumeItemListEnd
+
+       
+    \resumeSubheading
+      {AI/ML Research Student}{Oct. 2022 -- Present}
+      {Guide – Prof. Ramanathan Anand and Dr.Gayathri.M, Assistant Professor, SRMIST.}{}
+      
+      \resumeItemListStart
+        \resumeItem
+        {Researching on Automated Recognition of Total Hip Arthroplasty Implants using object detection with YOLOv5 Algorithm and convolutional neural network (CNN).}
+       \resumeItemListEnd
+       
+    \resumeSubheading
+      {iOS App Development Training Program}{Oct. 2022 -- Nov. 2022}
+      {Conducted By: Apple and Infosys at SRMIST.}{}
+      
+      \resumeItemListStart
+        \resumeItem
+        {Learned how to identify problem statements, common logical, syntax and run time errors and created a prototype an iOS application.}
+       \resumeItemListEnd
+       
+    \resumeSubheading
+      {Teaching Assistant at PrepBytes - Competitive Programming}{June 2022 -- Present}
+      {Guide – Ms. Mamta Kumari, Co-Founder at PrepBytes, India.}{}
+      \resumeItemListStart
+        \resumeItem
+        {Helping students by clearing their doubts and debugging their codes in Competitive Programming and Data Structures and Algorithms.}
+       \resumeItemListEnd
+  \resumeSubHeadingListEnd
+  
+%-----------Skills-----------
+\section{Skills}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Expertise Area}{}}{}
+          \resumeItemListStart
+        \resumeItem
+        {Android-iOS App Development, $|$ Data Structures and Algorithms$|$ Python Automation$|$ Machine Learning and Object Detection.}
+      \resumeItemListEnd
+      
+      \resumeProjectHeading
+          {\textbf{Programming Languages and Technologies}{}}{}
+          \resumeItemListStart
+        \resumeItem
+        {C++, Python, JAVA, C, Flutter, Amazon Web Services, Deep Learning, , Bash-Zsh-Fish Terminal, Google Colab, Git and GitHub, Adobe Premiere Pro and CS6.}
+      \resumeItemListEnd
+    %   \resumeProjectHeading
+    %       {\textbf{Technical Courses and Electives}{}}{}
+    %       \resumeItemListStart
+    %     \resumeItem
+    %     {Data Structures and Algorithms, Advanced Programming (Python), Design and Analysis of Algorithms, Operating Systems, Number Theory and Graph Theory.}
+    \resumeSubHeadingListEnd
+% -------------- Projects -----------------------------------------
+\section{Projects}
+    \resumeSubHeadingListStart
+        \resumeProjectHeading
+          {\emph{}\href{www.google.com}{\textbf{Title of the project}\emph{}}}{Sept. 2022 -- Present}
+          \resumeItemListStart
+            \resumeItem
+            {Description.}
+        \resumeItemListEnd
+        
+        \resumeProjectHeading
+         {\textbf{ Codeforces Contest Bot}\emph{}}{Feb. 2022 -- Mar. 2022}
+          \resumeItemListStart
+            \resumeItem
+            {Developed linux based backend software for codeforces.com contests which can download testcases, contest problems, parse test cases through custom terminal 
+            commands using Python and data scraping module BeautifulSoup 4.}
+        \resumeItemListEnd
+        
+        \resumeProjectHeading
+          {\textbf{Cryptocurrency Trading Bot}\emph{}}{Jan. 2022 -- Feb. 2022}
+          \resumeItemListStart
+            \resumeItem
+            {Developed an AWS terminal based software Linux application using python with Selenium library to control chrome browser for automatic commands like biding, selling with Coin-DCX APIs for trading cryptocurrency.}
+        \resumeItemListEnd
+        
+    \resumeSubHeadingListEnd
+%------------------Awards and Achievements-------------------------
+\section{Awards and Achievements}
+    \resumeSubHeadingListStart
+        \resumeProjectHeading
+        {• Qualified for \textbf{Facebook/Meta Hacker Cup}{ 2022 Round 1, secured- \textbf{Global Rank 6994}}}{Aug. 2022}
+      \resumeProjectHeading
+        {\textbf{• Google Hash Code}{ 2022 \textbf{Global Rank 4895} - \textbf{Country Rank 804} having over 10k teams.}}{Mar. 2022}
+      \resumeProjectHeading
+        {\textbf{• Coding Ninjas} Intra-College Coding Competition\textbf{ University Rank: 2} having over 8k participants.}{July. 2021}
+    \resumeProjectHeading
+        {• State level scholar \textbf{National Cyber Olympiad (NCO)}\textbf{ State Rank: 1},  All India Rank: \textbf 16.}{Jan. 2018}
+    \resumeSubHeadingListEnd
+    
+%------------------Leadership & responsibilities-------------------------
+\section{Leadership and responsibilities}
+\resumeSubHeadingListStart
+        \resumeProjectHeading
+        {\textbf{Event Head and Problem Setter}\emph{}}{Apr. 2022}
+          \resumeItemListStart
+            \resumeItem
+            {Online Programming Event Organised on Codeforces | Over 200 active participating teams.}
+        \resumeItemListEnd
+\resumeSubHeadingListEnd
+\end{document}
+
